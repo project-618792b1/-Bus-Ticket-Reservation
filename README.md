@@ -1,6 +1,6 @@
 # Bus-Ticket-Reservation
 
-view_seats.jsp -> main page
+view_seats.jsp -> view seats page
 
 proceed.jsp -> arraylist created
 
