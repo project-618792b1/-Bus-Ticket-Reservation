@@ -40,7 +40,8 @@
         int l = s.size();
         for(int i =0;i<l;i++){
     
-    %>   System.out.println("Seat"+" "+s[i]+"\n");
+       System.out.println("Seat"+" "+(String)s.get(i)+"\n");
+       %>
         <button type="button" onclick="GFG_Fun()">Click Me!</button>
        <%
         }
