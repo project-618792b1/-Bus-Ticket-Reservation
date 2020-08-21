@@ -34,7 +34,7 @@
    <body>
        
 <%@page import="java.util.ArrayList"%>
-       <%--
+       <%
             session = request.getSession(false);
        ArrayList<String> s  = (ArrayList<String>)session.getAttribute("seatsList");
         int l = s.size();
@@ -44,8 +44,8 @@
         <button type="button" onclick="GFG_Fun()">Click Me!</button>
        <%
         }
-     --%>
-     <%
+     %>
+     <%--
 ArrayList<String> s  = new ArrayList<String>();
 s.add("2");
 s.add("3");
@@ -56,7 +56,7 @@ s.add("3");
             <button type="button" onclick="GFG_Fun()">Click Me!</button>
               <% 
         }
-              %>
+             --%>
            
 <script> 
      
